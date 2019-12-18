@@ -18,5 +18,8 @@
   "homepage": "https://github.com/ajboard13/First-Node-Server#readme",
   "dependencies": {
     "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "jasmine-node": "^3.0.0"
   }
 }
