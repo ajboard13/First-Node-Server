@@ -1,5 +1,6 @@
 var http = require('http');
 var fs = require('fs');
+var moment = require('moment')
 
 http.createServer(function(req, res) {
 
@@ -24,7 +25,7 @@ http.createServer(function(req, res) {
 
     else {
         res.writeHead(404);
-        res.end();
+        res.end(moment().format(moment.HTML5_FMT.DATETIME_LOCAL_SECONDS));
     }
 
 }).listen(1337, '127.0.0.1');
