@@ -1,0 +1,22 @@
+{
+  "name": "my-first-node-server",
+  "version": "1.0.0",
+  "description": "Learinging NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajboard13/First-Node-Server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajboard13/First-Node-Server/issues"
+  },
+  "homepage": "https://github.com/ajboard13/First-Node-Server#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
